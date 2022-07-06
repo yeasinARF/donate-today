@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.first-container{
+    background-image:url(image/bg.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    text-align: center;  
+}
+.first-container .title{
+    padding-top:100px;
+    padding-bottom:20px;
+    font-size:48px;
+    font-family: 'Poppins', sans-serif;
+    color:#ffff;
+}
+.first-container .mini-text{
+    padding-top:10px;
+    padding-bottom:20px;
+    font-family: 'Poppins', sans-serif;
+    font-size:16px;
+    color:#ffff;
+}
+.first-container .btn{
+    width:200px;
+    height:56px;
+    border:none;
+    background-color:#FF5959;
+    margin-top:40px;
+    margin-bottom:170px;   
+    border-radius:8px;
+}
+.first-container .btn a{
+    color:#FFFFFF;
+    font-size:20px;
+    text-decoration:none;
+    font-family: 'Poppins', sans-serif;
+}
+.second-container{
+    text-align: center;  
+}
+.second-container .title{
+    padding-top:50px;
+    padding-bottom:10px;
+    font-size:35px;
+    font-family: 'Poppins', sans-serif;
+    color:black;
+}
+.second-container .mini-text{
+    padding-top:10px;
+    padding-bottom:20px;
+    font-size:16px;
+    font-family: 'Poppins', sans-serif;
+    color:#707070;
+}
+.second-container .flex-box{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:40px;
+    margin-bottom:20px;
+    font-size:20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color:#707070;
+    cursor:pointer;
+
+}
+.second-container .flex-box .box-1{
+    width:135px;
+    height:123px;
+    background-color:#FAFAFA;
+    margin-right:15px;
+    line-height:120px;
+    border-radius:6px;
+}
+.second-container .flex-box .box-2{
+    width:135px;
+    height:123px;
+    background-color:#FFEEEE;
+    color:#FF5959;
+    text-align: center;
+    margin-right:15px;
+    line-height:120px;
+    border:2px solid #FF5959;
+    border-radius:6px;
+}
+.second-container .flex-box .box-3{
+    width:135px;
+    height:123px;
+    background-color:#FAFAFA;
+    margin-right:15px;
+    line-height:120px;
+    border-radius:6px;
+}
+.second-container .flex-box .box-4{
+    width:135px;
+    height:123px;
+    background-color:#FAFAFA;
+    margin-right:15px;
+    line-height:120px;
+    border-radius:6px;
+}
+.second-container .flex-box .box-5{
+    width:135px;
+    height:123px;
+    background-color:#FAFAFA;
+    margin-right:15px;
+    line-height:120px;
+    border-radius:6px;
+}
+.second-container .other-amount{
+    margin-top:80px;
+    margin-bottom:20px;
+    text-align: center;
+}
+.second-container .other-amount input{
+    border:none;
+    color:#B3B3B3;
+    font-family: 'Poppins', sans-serif;
+    font-size:16px;
+    padding-bottom:10px;
+    outline:none;
+}
+
+.second-container .other-amount hr{
+    width:765px;
+    background-color:#b4b3b3;
+    margin: auto;
+    
+}
+.second-container .btn{
+    width:160px;
+    height:56px;
+    border:none;
+    background-color:#FF5959;
+    margin-top:40px;
+    margin-bottom:30px;   
+    border-radius:8px;
+}
+.second-container .btn a{
+    color:#FFFFFF;
+    font-size:20px;
+    text-decoration:none;
+    font-family: 'Poppins', sans-serif;
+}
+.third-container{
+    margin-top:30px;
+    text-align: center;
+}
+.third-container .title{
+    padding-top:10px;
+    padding-bottom:20px;
+    font-size:35px;
+    font-family: 'Poppins', sans-serif;
+    color:#121212;
+}
+.third-container .mini-text{
+    padding-top:10px;
+    padding-bottom:20px;
+    font-family: 'Poppins', sans-serif;
+    font-size:16px;
+    color:#707070;
+}
+.third-container .flex-box {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:40px;
+    margin-bottom:20px;
+    font-family: 'Poppins', sans-serif;
+    color:#707070;
+    cursor:pointer;
+
+}
+.third-container .flex-box .box-1{
+
+    width:360px;
+    height:352px;
+    background-color:rgba(79, 157, 166, 0.1);
+    margin-right:15px;
+    border-radius:6px;
+    text-align:left;
+    padding-left:20px;
+    padding-right:20px;
+}
+.third-container .flex-box .box-2{
+
+    width:360px;
+    height:352px;
+    background-color:rgba(255, 89, 89, 0.1);
+    margin-right:15px;
+    border-radius:6px;
+    text-align:left;
+    padding-left:20px;
+    padding-right:20px;
+}
+.third-container .flex-box .box-3{
+
+    width:360px;
+    height:352px;
+    background-color:rgba(255, 244, 214, 1);
+    margin-right:15px;
+    border-radius:6px;
+    text-align:left;
+    padding-left:20px;
+    padding-right:20px;
+}
+.third-container .flex-box  img{
+    width:58px;
+    height:49px;
+    margin-top:50px;
+}
+.third-container .flex-box .title{
+    color:#121212;
+    font-size:22px;
+    font-weight:bold;
+    padding-top:40px;
+
+}
+.third-container .flex-box .description{
+    font-size:14px;
+    padding-top:10px;
+}
+.fourth-container{
+    margin-top:50px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.fourth-container .title{
+    padding-bottom:10px;
+    font-size:35px;
+    font-family: 'Poppins', sans-serif;
+    color:black;
+}
+.fourth-container .mini-text{
+    padding-top:10px;
+    padding-bottom:20px;
+    font-family: 'Poppins', sans-serif;
+    font-size:16px;
+    color:#707070;
+}
+.fourth-container .flex-box {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:40px;
+    margin-bottom:20px;
+    cursor:pointer;
+
+}
+.fourth-container .flex-box .btn-1{
+    width:220px;
+    height:80px;
+    border:none;
+    background-color:rgb(255, 68, 0);
+    margin-top:10px;
+    margin-bottom:30px;   
+    border-radius:6px;
+    margin-right:15px;
+}
+.fourth-container .flex-box .btn-2{
+    width:220px;
+    height:80px;
+    border:none;
+    background-color:#f98a22;
+    margin-top:10px;
+    margin-bottom:30px;   
+    border-radius:6px;
+    margin-right:15px;
+}
+.fourth-container .flex-box .btn-3{
+    width:220px;
+    height:80px;
+    border:none;
+    background-color:#49d75c;
+    margin-top:10px;
+    margin-bottom:30px;   
+    border-radius:6px;
+    margin-right:15px;
+}
+.fourth-container .flex-box a{
+    color:#FFFFFF;
+    font-size:20px;
+    text-decoration:none;
+    font-family: 'Poppins', sans-serif;
+}
+.fifth-container{
+    margin-top:50px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.fifth-container .title{
+    padding-bottom:10px;
+    font-size:35px;
+    font-family: 'Poppins', sans-serif;
+    color:black;
+}
+.fifth-container .mini-text{
+    padding-top:10px;
+    padding-bottom:20px;
+    font-family: 'Poppins', sans-serif;
+    font-size:16px;
+    color:#707070;
+}
+.fifth-container form{
+    width:809px;
+    height:200px;
+    background-color:rgba(255, 244, 214, 1);
+    margin:auto;
+    margin-bottom:20px;
+}
+.fifth-container form .input-section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:80px;
+
+}
+.fifth-container form .input-section .input{
+    width:275px;
+    height:48px;
+    padding-left:10px;
+    border:none;
+    background-color:#D9D9D9;
+    outline:none;
+    font-size:16px;
+    margin-top:-30px;
+}
+.fifth-container form .input-section .btn{
+    width:157px;
+    height:48px;
+    border:none;
+    background-color:#FF5959;
+    margin-bottom:30px;   
+    border-top-right-radius:6px;
+    border-bottom-right-radius:6px;
+
+}
+.fifth-container form .input-section .btn a{
+    color:#FFFFFF;
+    font-size:16px;
+    text-decoration:none;
+    font-family: 'Poppins', sans-serif;
+
+}
+.footer-section{
+    background-color: #121212;
+    text-align:center;
+    margin-top:80px;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+.footer-section .title{
+    color:#FF5959;
+    font-family: 'Lobster', cursive;
+    font-size:30px;
+    font-weight:bold;
+}
+.footer-section .mini-text{
+    padding-top:15px;
+    color:#D9DBE1;
+    font-size:16px;
+}
